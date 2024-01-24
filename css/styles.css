@@ -1,0 +1,143 @@
+
+.color-gray{
+    color: #777;
+}
+.color-red{
+    color: #D62E33 ;
+}
+
+.hero{
+    width: 100%;
+    height: 660px;
+    background-image: url(../assets/images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+}
+
+nav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#close-btn:hover,
+nav a:hover{
+    color: #D62E33;
+}
+
+nav a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+
+.open-nav{
+    font-size: 30px; 
+    cursor: pointer;
+}
+
+/* slider */
+.slider{
+    margin: 100px auto;
+    width: 50%;
+}
+
+.title{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+.slider .inner-content{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+.active .inner-content{
+    display: block;
+}
+
+
+/* count */
+
+.count-down{
+    background-image: url(../assets/images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row > .col-3 {
+    width: max-content;
+    height: 70px;
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* contact */
+.contact .social-media span {
+    border: 1px solid #777;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.contact .social-media span:hover{
+    background-color: #D62E33;
+    color: white;
+}
+
+.contact form textarea {
+    /* height: 200px; */
+    resize: vertical;
+}
